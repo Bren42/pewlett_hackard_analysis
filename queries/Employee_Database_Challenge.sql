@@ -1,0 +1,23 @@
+-- SELECT e.emp_no,
+-- 		e.first_name,
+-- 		e.last_name,
+-- 		t.title,
+-- 		t.from_date,
+-- 		t.to_date
+-- --INTO retirement_titles
+-- FROM employees AS e
+-- INNER JOIN titles as t
+-- ON (e.emp_no = t.emp_no)
+-- WHERE (e.birth_date > '01-01-1952' and e.birth_date < '12-31-1955')
+-- ORDER BY e.emp_no;
+
+-- -- Use Dictinct with Orderby to remove duplicate rows
+-- SELECT DISTINCT ON (rt.emp_no) 
+-- 	rt.emp_no,
+-- 	rt.first_name,
+-- 	rt.last_name,
+-- 	rt.title
+-- INTO unique_titles
+-- FROM retirement_titles as rt
+-- WHERE rt.to_date = '01-01-9999'
+-- ORDER BY rt.emp_no,rt.to_date DESC;
