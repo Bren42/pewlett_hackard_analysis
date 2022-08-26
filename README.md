@@ -7,7 +7,7 @@ the departments that would be impacted the most. We also needed to help the orga
 a mentorship program to assist in transitioning our employees expertise onto the next generation of senior employees.
 We utilized the PH employees database to combine and output the data to our questions.
 
-## ** Results ** ##
+## **Results** ##
 
 - Our first request was to pull all of the data on retiring employees and their employee number and department and seperate this out into a table. 
   - We were successful in this, however our initial query pulled over 133K employees. upon closer review it was noted that many employees were duplicated due to previous roles.
@@ -16,5 +16,5 @@ We utilized the PH employees database to combine and output the data to our ques
 - Finally we created a third table to add employees from the previous group who would be eligible for the mentorship program. This list was only 1549 employees, however we could now clearly see who we could begin the transition with.
 
 
-## ** Summary ** ##
+## **Summary** ##
 In summary, Pewlett Hackard has a large group of employees getting ready to retire. However with the help of our database and analyst team we have been able to clearly identify the employees that will be impacted as well as the departments. The ability to take our current data and transform it to answer specific questions has given us the ability to identify employees that will be eligible for mentorship which should lessen the impact of outgoing experience. It also allows leadership to look at each group and start discussing retirmeent timelines, and replacement plans for the future. It will not be an easy task but at least we have visibility into how we need to approach it.
