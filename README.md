@@ -10,10 +10,24 @@ We utilized the PH employees database to combine and output the data to our ques
 ## **Results** ##
 
 - Our first request was to pull all of the data on retiring employees and their employee number and department and seperate this out into a table. 
-  - We were successful in this, however our initial query pulled over 133K employees. upon closer review it was noted that many employees were duplicated due to previous roles.
-- We needed to see employees eligible to retire, but only within their current roles. So we removed prior roles and created a new table for unique titles only.This was also succesful and now we had a much more manageable list with 72K.
-- To make the data more useable we then grouped the data by employee department and counted each group. Making the data very clear to see where we would sustain the most impact to the workforce.
+  - We were successful in this, however our initial query pulled over 133K employees. As seen in the image as we reviewed the data it was noted that many employees were duplicated due to previous roles. 
+ ![This is an image](https://github.com/Bren42/pewlett_hackard_analysis/blob/main/PH_analysis%20retiring%20employees.png) 
+  
+  
+- We needed to see employees eligible to retire, but only within their current roles. So we removed prior roles and created a new table for unique titles only.This was also succesful and now we had a much more manageable list with 72K. 
+
+![This is an image](https://github.com/Bren42/pewlett_hackard_analysis/blob/main/PH_analysis_unique_emp.png)
+
+
+- To make the data more useable we then grouped the data by employee department and counted each group. Making the data very clear to see where we would sustain the most impact to the workforce. As can be seen below the areas that are by and far most impacted will be Senior Engineering and Senior Staff, combined they are more than 68% of all eligible retirees.
+
+![This is an image](https://github.com/Bren42/pewlett_hackard_analysis/blob/main/PH_retire_dept_count.png)
+
+
+
 - Finally we created a third table to add employees from the previous group who would be eligible for the mentorship program. This list was only 1549 employees, however we could now clearly see who we could begin the transition with.
+
+![This is an image](https://github.com/Bren42/pewlett_hackard_analysis/blob/main/PH_mentorship_elg.png)
 
 
 ## **Summary** ##
